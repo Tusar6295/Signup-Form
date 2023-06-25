@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face {
+    font-family: "Norse";
+    src: url("Norse-Bold.otf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c2e3a5;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(45, 44, 44);
+}
+
+.box{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    height: 100%;
+    width: 36%;
+    background-image: url("unsplash.jpg");
+    background-size: 310px 100%;
+    background-repeat: no-repeat;
+}
+
+.main_container{
+    height: 100vh;
+    width: 800px;
+    display: flex;
+    background-color: white;
+}
+
+.logo{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.logoName{
+    font-family: 'Norse';
+    color: white;
+    font-size: 50px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 64%;
+}
+
+.description{
+    margin: 20px;
+}
+
+.para{
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+form{
+    width: 100%;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+    gap: 14px;
+    padding:20px;
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, .5);;
+}
+
+.form-container p{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.form-cell{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 33%;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.form-cell label{
+    font-size: 8px;
+    font-weight: bold;
+    color: rgb(91, 90, 90);
+    letter-spacing: 0.03cm;
+}
+
+input{
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    height:  20px;
+    padding: 4px;
+}
+
+input:focus{
+    outline: none;
+    border-color: #665df5;
+    box-shadow: 0 0 2px #665df5;
+}
+
+.btn-area{
+    padding: 20px;
+}
+
+.btn{
+    background-color: #596D48;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.btn-area p{
+    margin-top: 16px;
+    font-size: 12px;
+}
+.btn-area p span{
+    color: #596D48;
+}
