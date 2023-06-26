@@ -143,3 +143,7 @@ input:focus{
 .btn-area p span{
     color: #596D48;
 }
+
+.disable {
+    background-color: #879e73 ;
+ }
